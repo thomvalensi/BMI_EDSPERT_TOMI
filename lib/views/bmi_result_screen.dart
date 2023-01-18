@@ -5,7 +5,6 @@ import 'package:flutter/material.dart';
 
 class BmiResultScreen extends StatelessWidget {
   const BmiResultScreen({super.key, required this.bmi});
-  // const BmiResultScreen({Key? key, required this.bmi}) : super(key: key);
   final double bmi;
 
   determineBmiCategory(double bmiValue) {
